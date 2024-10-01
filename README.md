@@ -35,8 +35,8 @@
 ## Build your own:
 (replace thebeststackever with your project's name ;-)
 
-1. Install Node
-2. Install PNPM
+1. Install Node from [here](https://nodejs.org/en/download/package-manager)
+2. Install PNPM from [here](https://pnpm.io/installation)
 3. pnpm create cloudflare@latest thebeststackever --framework=astro
 4. cd thebeststackever
 5. pnpm astro add react
