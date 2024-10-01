@@ -5,7 +5,9 @@
 
 [Park UI](https://park-ui.com/)
 
-[Panda](https://panda-css.com/)
+[Ark UI](https://ark-ui.com/)
+
+[Panda CSS](https://panda-css.com/)
 
 [React](https://react.dev/)
 
@@ -19,7 +21,8 @@
 
 [Cloudflare](https://www.cloudflare.com/)
 
-## Get started quick
+
+## Get started quick:
 
 1. Clone or fork this repo
 2. cd thebeststackever
@@ -27,3 +30,14 @@
 4. pnpm dev
 5. That's it, browse the site
 
+## Build your self:
+(replace thebeststackever with your project's name ;-)
+
+1. Install Node
+2. Install PNPM
+3. pnpm create cloudflare@latest thebeststackever --framework=astro
+4. cd thebeststackever
+5. pnpm astro add react
+6. Follow this steps [Using Panda CSS with Astro](https://panda-css.com/docs/installation/astro)
+7. pnpm install @ark-ui/react
+8. 
