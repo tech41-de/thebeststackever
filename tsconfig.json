@@ -6,6 +6,10 @@
     ],
     "jsx": "react-jsx",
     "jsxImportSource": "react",
-    "include":  ["src", "styled-system"]
-  }
+    "baseUrl": ".",
+    "paths": {
+      "~/*": ["./src/*"]
+    }
+  },
+  "include":  ["src", "styled-system"]
 }

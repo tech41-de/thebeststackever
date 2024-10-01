@@ -40,10 +40,10 @@
 3. pnpm create cloudflare@latest thebeststackever --framework=astro
 4. cd thebeststackever
 5. pnpm astro add react
-6. In Astro 'Configure no-op passthrough service' [here](https://docs.astro.build/en/guides/images/)
-7. Follow this steps: [Using Panda CSS with Astro](https://panda-css.com/docs/installation/astro)
+6. In Astro 'Configure no-op passthrough service' [here](https://docs.astro.build/en/guides/images/) as Cloudflare does not support Sharp
+7. Follow this steps: [Using Panda CSS with Astro](https://panda-css.com/docs/installation/astro) - leave postcss.config.cjs as it is
 8. pnpm install @ark-ui/react
-9. Follow these steps including settings for Typescript and Vite: [Park UI Getting started](https://park-ui.com/react/docs/overview/getting-started)
+9. Follow these steps including settings for Typescript and Vite (substitude npm with pnpm ;-): [Park UI Getting started](https://park-ui.com/react/docs/overview/getting-started)
 10. pnpm install lucide
 11. pnpm dev
 12. That's it, browse the site at [http://localhost:4321/](http://localhost:4321/)
