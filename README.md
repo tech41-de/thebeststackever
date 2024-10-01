@@ -30,7 +30,7 @@
 2. cd thebeststackever
 3. pnpm install
 4. pnpm dev
-5. That's it, browse the site
+5. That's it, browse the site at[http://localhost:4321/](http://localhost:4321/)
 
 ## Build your own:
 (replace thebeststackever with your project's name ;-)
@@ -45,5 +45,7 @@
 8. Follow these steps including settings for 
 Typescript and Vite: [Park UI Getting started](https://park-ui.com/react/docs/overview/getting-started)
 9. pnpm install lucide
+10. pnpm dev
+11. That's it, browse the site at [http://localhost:4321/](http://localhost:4321/)
 
 Enjoy!
