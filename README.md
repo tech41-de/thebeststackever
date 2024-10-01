@@ -1,20 +1,30 @@
-# thebeststackever
- The best JAMstack ever🍦 (in 2024):
+
+# The best JAMstack ever🍦 (in 2024):
 
 [Lucide](https://lucide.dev/)
 
 [Park UI](https://park-ui.com/)
 
-[panda](https://panda-css.com/)
+[Panda](https://panda-css.com/)
 
 [React](https://react.dev/)
 
-[astro](https://astro.build/)
+[Astro](https://astro.build/)
 
 [Vite](https://vitejs.dev/)
 
-[node](https://nodejs.org/)
+[Node](https://nodejs.org/)
 
 [PNPM](https://pnpm.io/)
 
 [Cloudflare](https://www.cloudflare.com/)
+
+## Get started quick
+
+1 Clone or fork this repo
+2 cd thebeststackever
+3 pnpm install
+4 pnpm dev
+5 that's it, browse the site
+
+2 pnpm install
