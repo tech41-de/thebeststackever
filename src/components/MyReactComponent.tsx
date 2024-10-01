@@ -36,7 +36,12 @@ export default function MyReactComponent() {
            <a href="https://lucide.dev/">Lucide</a>
              </Text>
         <br />
-        <a href="https://github.com/tech41-de/thebeststackever"><img src="github.svg"  width={75} height={75}/></a>
+        <a href="https://github.com/tech41-de/thebeststackever">
+        
+        {!dark &&<img src="github.svg"  width={75} height={75}/>}
+        {dark &&<img src="github_white.svg"  width={75} height={75}/>}
+
+        </a>
         <br />
         <br />
        
