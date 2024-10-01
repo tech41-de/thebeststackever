@@ -45,7 +45,9 @@
 8. pnpm install @ark-ui/react
 9. Follow these steps including settings for Typescript and Vite (substitude npm with pnpm ;-): [Park UI Getting started](https://park-ui.com/react/docs/overview/getting-started)
 10. pnpm install lucide
-11. pnpm dev
-12. That's it, browse the site at [http://localhost:4321/](http://localhost:4321/)
+11. pnpm install --save-dev @types/react@latest @types/react-dom@latest
+12. pnpm dev
+
+That's it, browse the site at [http://localhost:4321/](http://localhost:4321/)
 
 Enjoy!
