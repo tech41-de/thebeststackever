@@ -21,10 +21,9 @@
 
 ## Get started quick
 
-1 Clone or fork this repo
-2 cd thebeststackever
-3 pnpm install
-4 pnpm dev
-5 that's it, browse the site
+1. Clone or fork this repo
+2. cd thebeststackever
+3. pnpm install
+4. pnpm dev
+5. That's it, browse the site
 
-2 pnpm install
