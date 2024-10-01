@@ -7,7 +7,7 @@ export default defineConfig({
   presets: ['@pandacss/preset-base', '@park-ui/panda-preset'],
 
   // Where to look for your css declarations
-  include: ['./src/**/*.{ts,tsx,js,jsx,astro}', './pages/**/*.{ts,tsx,js,jsx,astro}'],
+  include: ['./src/**/*.{ts,tsx,js,jsx,astro,css}', './pages/**/*.{ts,tsx,js,jsx,astro}'],
 
   // Files to exclude
   exclude: [],

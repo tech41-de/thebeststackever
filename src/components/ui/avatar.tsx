@@ -1,7 +1,8 @@
+import { Avatar as ArkAvatar, type AvatarRootProps } from '@ark-ui/react/avatar'
 import { forwardRef } from 'react'
-import * as StyledAvatar from './styled/avatar'
+import './avatar.css'
 
-export interface AvatarProps extends StyledAvatar.RootProps {
+export interface AvatarProps extends AvatarRootProps {
   name?: string
   src?: string
 }
@@ -10,14 +11,12 @@ export const Avatar = forwardRef<HTMLDivElement, AvatarProps>((props, ref) => {
   const { name, src, ...rootProps } = props
 
   return (
-    <StyledAvatar.Root ref={ref} {...rootProps}>
-      <StyledAvatar.Fallback>{getInitials(name) || <UserIcon />}</StyledAvatar.Fallback>
-      <StyledAvatar.Image src={src} alt={name} />
-    </StyledAvatar.Root>
+    <ArkAvatar.Root ref={ref} {...rootProps}>
+      <ArkAvatar.Fallback>{getInitials(name) || <UserIcon />}</ArkAvatar.Fallback>
+      <ArkAvatar.Image src={src} alt={name} />
+    </ArkAvatar.Root>
   )
 })
-
-Avatar.displayName = 'Avatar'
 
 const UserIcon = () => (
   <svg
@@ -40,3 +39,5 @@ const getInitials = (name = '') =>
     .splice(0, 2)
     .join('')
     .toUpperCase()
+
+Avatar.displayName = 'Avatar'

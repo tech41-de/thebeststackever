@@ -23,9 +23,9 @@ importers:
       astro:
         specifier: ^4.15.9
         version: 4.15.9(@types/node@22.7.4)(lightningcss@1.25.1)(rollup@4.23.0)(typescript@5.6.2)
-      lucide:
+      lucide-react:
         specifier: ^0.446.0
-        version: 0.446.0
+        version: 0.446.0(react@18.3.1)
       react:
         specifier: ^18.3.1
         version: 18.3.1
@@ -2314,8 +2314,10 @@ packages:
   lru-cache@5.1.1:
     resolution: {integrity: sha512-KpNARQA3Iwv+jTA0utUVVbrh+Jlrr1Fv0e56GGzAFOXN7dk/FviaDW8LHmK52DlcH4WP2n6gI8vN1aesBFgo9w==}
 
-  lucide@0.446.0:
-    resolution: {integrity: sha512-oRSbYPYWkDLB7WRhR6shRMTB/zd/E+UzwMqpqiSFjvGLwUQnd1Sk70i675MGfg9agwXdFqzEbgyTCGMg36vfGQ==}
+  lucide-react@0.446.0:
+    resolution: {integrity: sha512-BU7gy8MfBMqvEdDPH79VhOXSEgyG8TSPOKWaExWGCQVqnGH7wGgDngPbofu+KdtVjPQBWbEmnfMTq90CTiiDRg==}
+    peerDependencies:
+      react: ^16.5.1 || ^17.0.0 || ^18.0.0 || ^19.0.0-rc
 
   magic-string@0.25.9:
     resolution: {integrity: sha512-RmF0AsMzgt25qzqqLc1+MbHmhdx0ojF2Fvs4XnOqz2ZOBXzzkEwc/dJQZCYHAn7v1jbVOjAZfK8msRn4BxO4VQ==}
@@ -6361,7 +6363,9 @@ snapshots:
     dependencies:
       yallist: 3.1.1
 
-  lucide@0.446.0: {}
+  lucide-react@0.446.0(react@18.3.1):
+    dependencies:
+      react: 18.3.1
 
   magic-string@0.25.9:
     dependencies:
