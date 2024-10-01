@@ -25,7 +25,16 @@ export default function MyReactComponent() {
         </IconButton>
         </div>
         <Text size="7xl">The best JAMstack ever</Text>
-        <Text size="xl">Cloudflare Pages - Node - Asto - React - Pandas CSS - ARK UI - Park UI - Lucide</Text>
+        <Text size="xl">
+           <a href="https://www.cloudflare.com/">Cloudflare Pages</a> - 
+           <a href="https://nodejs.org/">Node</a> - 
+           <a href="https://astro.build/">Asto</a> - 
+           <a href="https://react.dev/">React</a> - 
+           <a href="https://panda-css.com/">Panda CSS</a> - 
+           <a href="https://ark-ui.com/">ARK UI</a> - 
+           <a href="https://park-ui.com/">Park UI</a> - 
+           <a href="https://lucide.dev/">Lucide</a>
+             </Text>
         <br />
         <a href="https://github.com/tech41-de/thebeststackever"><img src="github.svg"  width={75} height={75}/></a>
         <br />
