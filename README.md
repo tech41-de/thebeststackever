@@ -17,6 +17,8 @@
 
 [Node](https://nodejs.org/)
 
+[TypeScript](https://www.typescriptlang.org/)
+
 [PNPM](https://pnpm.io/)
 
 [Cloudflare](https://www.cloudflare.com/)
@@ -40,5 +42,8 @@
 5. pnpm astro add react
 6. Follow this steps: [Using Panda CSS with Astro](https://panda-css.com/docs/installation/astro)
 7. pnpm install @ark-ui/react
-8. Follow these steps invcluding settings for 
+8. Follow these steps including settings for 
 Typescript and Vite: [Park UI Getting started](https://park-ui.com/react/docs/overview/getting-started)
+9. pnpm install lucide
+
+Enjoy!
