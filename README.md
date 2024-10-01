@@ -30,7 +30,7 @@
 4. pnpm dev
 5. That's it, browse the site
 
-## Build your self:
+## Build your own:
 (replace thebeststackever with your project's name ;-)
 
 1. Install Node
@@ -38,6 +38,7 @@
 3. pnpm create cloudflare@latest thebeststackever --framework=astro
 4. cd thebeststackever
 5. pnpm astro add react
-6. Follow this steps [Using Panda CSS with Astro](https://panda-css.com/docs/installation/astro)
+6. Follow this steps: [Using Panda CSS with Astro](https://panda-css.com/docs/installation/astro)
 7. pnpm install @ark-ui/react
-8. 
+8. Follow these steps invcluding settings for 
+Typescript and Vite: [Park UI Getting started](https://park-ui.com/react/docs/overview/getting-started)
