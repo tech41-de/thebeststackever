@@ -1,5 +1,5 @@
 
-# The best JAMstack ever🍦 (in 2024):
+# The best JAMstack ever🍦(in 2024):
 
 [Lucide](https://lucide.dev/)
 
