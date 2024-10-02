@@ -41,11 +41,11 @@ replace thebeststackever with your project's name...
 5. pnpm astro add react
 6. In Astro 'Configure no-op passthrough service' [here](https://docs.astro.build/en/guides/images/) as Cloudflare does not support Sharp
 7. Follow this steps: [Using Panda CSS with Astro](https://panda-css.com/docs/installation/astro)
-8. Follow this steps: [Park UI Quickstart](https://park-ui.com/react/docs/overview/getting-started)
-9. Install Park UI https://park-ui.com/react/docs/overview/getting-started
-10. pnpm install lucide-react
-11. pnpm install --save-dev @types/react@latest @types/react-dom@latest
-12. pnpm dev
+8. Install Park UI [Getting Started](https://park-ui.com/react/docs/overview/getting-started)
+9. pnpm install lucide-react
+10. pnpm install --save-dev @types/react@latest @types/react-dom@latest
+11. pnpm dev
+12. 'pnpm build' might show build errors thrown by Park UI components, take "astro check" out in package.json to avoid, builds are ok.
 
 That's it, see your project at [http://localhost:4321/](http://localhost:4321/)
 
