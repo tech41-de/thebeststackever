@@ -52,3 +52,4 @@ That's it, see your project at [http://localhost:4321/](http://localhost:4321/)
 Enjoy!
 
 PS: to add Park-UI component: npx @park-ui/cli components add heading
+Is you see errors recreate with: pnpm panda codegen
